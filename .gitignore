@@ -1,0 +1,11 @@
+# Some libraries are still creating the node_modules to store files
+node_modules/
+packages/**/dist
+
+# Yarn 2
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

@@ -1,0 +1,20 @@
+{
+  "name": "aergia",
+  "version": "0.0.1",
+  "description": "An idle game based on the Progress Quest game.",
+  "repository": "git@github.com:Fernando-Marquardt/aergia.git",
+  "author": "Fernando Marquardt <fernando.marquardt@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "optionalDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
